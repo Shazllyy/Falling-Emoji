@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main{
+    width: 400px;
+    height: 250px;
+    margin: 2vw 5vw 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+#greetingPhrase,p{
+    font-size: 30px;
+}
+
+.startBtn{
+    width: 150px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+img{
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.stopWatch{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container{
+    width: 610px;
+    height: 905px;
+    border: solid black;
+    border-width: 0 5px 5px;
+    background-color: rgba(225, 230, 233, 0.6);
+    position: relative;
+}
+
+.block{
+    position: absolute;
+    margin: 0;
+}
+
